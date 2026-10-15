@@ -19,12 +19,16 @@ What's on it:
 
 ## Key findings
 
-> Fill in after running `prepare_data.py` on the real file. It prints the KPIs and the strongest drivers. Each finding = a number + a recommendation. Example format:
-> - **Employees who work overtime leave at X% vs Y% for those who don't.** Review workload in overtime-heavy roles before adding headcount elsewhere.
+1,470 employees, 237 of whom left: a **16.1% attrition rate**. Leavers' combined annual salaries total $13.6M, so at a replacement cost of half a year's salary, turnover costs about **$6.8M**.
 
-- 
-- 
-- 
+- **The first year is the danger zone.** 34.9% of employees in their first year left, vs 8.1% of those with 10+ years. Onboarding and first-year check-ins are the highest-value place to spend retention effort.
+- **Overtime triples the risk.** 30.5% of employees working overtime left, vs 10.4% of those who don't. With 416 people on overtime, workload is the most actionable lever in the data.
+- **Sales Representatives leave at 2.5× the company rate (39.8%).** Laboratory Technicians follow at 23.9%. Managers (4.9%) and Research Directors (2.5%) almost never leave. Retention budgets should go to specific roles, not company-wide programs.
+- **Pay and equity matter most at the bottom.** Employees earning under $2,500 a month leave at 34.1%, vs 8.9% above $10,000. Employees with no stock options leave at 24.4%, vs 9.4% with a basic grant, which makes a small equity grant a candidate retention tool worth testing.
+- **These risks pile onto the same people.** Leavers are disproportionately young (35.8% of 18–25-year-olds left), entry-level (26.3% at job level 1), single (25.5%) and frequent travelers (24.9%). Together they describe one early-career profile, which is easier to target than any single factor.
+- **Gender and department matter far less than role and workload.** Attrition is 17.0% for men vs 14.8% for women, and Sales vs R&D differ by 7 points. Job role alone creates a 37-point spread.
+
+_The factors overlap (young employees tend to be junior, lower-paid and newer), and the data shows correlation, not cause. The dataset is fictional, created by IBM for teaching._
 
 ## How it works
 
